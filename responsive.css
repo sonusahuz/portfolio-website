@@ -113,7 +113,7 @@
     border: 0;
     margin: 10px 0px;
     border-radius: 2px;
-    background-color: #f4f4f4;
+    background-color:#eee;
   }
   textarea {
     margin: 10px 0px;
@@ -122,7 +122,7 @@
     width: 420px;
     border: 0;
     height: 100px;
-    background-color: #f4f4f4;
+    background-color: #eee;
   }
   .btn2 button {
     color: white;
