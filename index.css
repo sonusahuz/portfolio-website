@@ -288,8 +288,7 @@ input {
   border: 0;
   margin: 10px 0px;
   border-radius: 2px;
-
-  background-color: #f4f4f4;
+  background-color: #eee;
 }
 textarea {
   margin: 10px 0px;
@@ -298,7 +297,7 @@ textarea {
   width: 324px;
   border: 0;
   height: 100px;
-  background-color: #f4f4f4;
+  background-color: #eee;
   border-radius: 2px;
 }
 
