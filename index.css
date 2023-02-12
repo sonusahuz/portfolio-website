@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --para-color: #748182;
+  --btn-color: #000000;
+  --heading-color: #000000;
+  --box-shadow: 0px 3px 10px rgb(0 0 0 /0.2);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f7f7f7;
+}
+p {
+  font-size: 15px;
+  color: var(--para-color);
+  font-weight: 400;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #000000;
+  padding: 25px 0px;
+  text-transform: capitalize;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.logo img {
+  width: 50px;
+  border-radius: 50%;
+}
+.navleft {
+  padding-left: 20px;
+}
+.logo h1 {
+  padding-left: 10px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 600;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+
+  background-color: white;
+  width: 100%;
+}
+
+ul li {
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+  padding-right: 20px;
+}
+ul li a {
+  text-transform: capitalize;
+  color: #333;
+  padding: 10px;
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  background-color: white;
+
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.topnav #myLinks {
+  display: none;
+  text-align: center;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  font-size: 25px;
+  top: 0;
+  color: black;
+}
+
+#myLinks a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+#myLinks hr {
+  margin-top: 10px;
+  width: 100%;
+}
+/* home section  */
+.home-flex {
+  text-align: center;
+  margin-top: 25px;
+}
+.home-flex img {
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: var(--box-shadow);
+  margin: auto;
+}
+
+.home-flex p {
+  color: var(--para-color);
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.home-flex h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.btn {
+  margin-top: 30px;
+}
+.btn button {
+  color: white;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: inline-block;
+  background-color: var(--btn-color);
+  border-radius: 0;
+  border: 0;
+  /* margin: 0px 10px; */
+  padding: 10px 20px;
+}
+.btn a {
+  color: white;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: inline-block;
+  background-color: var(--btn-color);
+  border-radius: 0;
+  border: 0;
+  /* margin: 0px 10px; */
+  padding: 10px 20px;
+}
+
+/* about section  */
+
+.container {
+  padding: 0px 20px;
+}
+.about-right h1 {
+  font-size: 20px;
+}
+
+/* progress  */
+.prog {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+}
+.prog h1 {
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 6px;
+}
+.fullprog {
+  border: 1px solid black;
+
+  width: 100%;
+  border-radius: 3px;
+  margin: 20px 0px;
+  text-transform: capitalize;
+}
+
+/* projext  */
+.projectsbox {
+  padding: 20px 20px;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  height: 370px;
+  text-align: left;
+  margin: 30px 0px;
+}
+.projectsbox img {
+  width: 280px;
+}
+.projectsbox button {
+  color: white;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: inline-block;
+  background-color: var(--btn-color);
+  border-radius: 0;
+  border: 0;
+  /* margin: 0px 10px; */
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.projectsbox h1 {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* contact us  */
+.icon2 {
+  display: flex;
+  align-items: center;
+  /* margin: 15px 0px; */
+}
+.icon2 ion-icon {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.icon2 ion-icon:hover {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.desc p {
+  padding-left: 50px;
+  padding-top: 0;
+}
+.icontext {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.form-right {
+  padding-top: 40px;
+}
+
+.btn2 button {
+  color: white;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: inline-block;
+  background-color: var(--btn-color);
+  border-radius: 0;
+  border: 0;
+
+  width: 320px;
+  /* margin: 0px 10px; */
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  max-width: 100%;
+  width: 324px;
+  border: 0;
+  margin: 10px 0px;
+  border-radius: 2px;
+
+  background-color: #f4f4f4;
+}
+textarea {
+  margin: 10px 0px;
+  padding: 10px;
+  max-width: 100%;
+  width: 324px;
+  border: 0;
+  height: 100px;
+  background-color: #f4f4f4;
+  border-radius: 2px;
+}
+
+.icon2 {
+  margin: 15px 0px;
+}
+.footer {
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 60px;
+  background-color: #000000;
+}
+.center-footer p {
+  font-size: 20px;
+  color: white;
+}
+.footer-icon {
+  margin-top: 20px;
+}
+.footer-icon ion-icon {
+  color: white;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+.copy p {
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+/* text animation  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+.text {
+  color: white;
+  border-right: 1px solid #5a5a5a;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #5a5a5a;
+} */
+.btn button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+.btn a:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+.projectsbox button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s;
+}
