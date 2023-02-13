@@ -19,3 +19,7 @@ var typing = new Typed(".text", {
   backSpeed: 40,
   loop: true,
 });
+let loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
