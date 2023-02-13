@@ -361,3 +361,18 @@ textarea {
   border: 1px solid black;
   transition: 0.3s;
 }
+
+#preloader {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: fixed;
+  z-index: 100;
+}
+
+#preloader img {
+  width: 100px;
+  margin-top: 280px;
+}
