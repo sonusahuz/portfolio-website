@@ -138,11 +138,17 @@
     margin-top: 10px;
   }
   .projects-flex {
-    display: grid;
-    grid-template-columns: 450px 450px 450px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .projectsbox img {
     width: 320px;
+  }
+  .projectsbox{
+    width: 350px;
+    margin: 10px 100px;
   }
 
   /* about section  */
