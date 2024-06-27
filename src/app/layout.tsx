@@ -44,7 +44,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="sm:px-4 md:px-40 lg:px-60 xl:px-80 px-3">
+          <main className="sm:px-4 md:px-40 lg:px-60 xl:px-72 px-3">
             <Header>{children}</Header>
             <Footer />
           </main>

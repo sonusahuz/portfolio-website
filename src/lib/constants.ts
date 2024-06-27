@@ -9,11 +9,11 @@ export const project = [
   },
   {
     id: '2',
-    projectName: 'AI Email Writer',
+    projectName: 'CRUD Operation App',
     description:
-      'Introducing the AI Email Writer, developed with React.js, TypeScript, TailwindCSS, and LangChain. This powerful tool streamlines email composition, generating professional and personalized emails effortlessly. Enhance productivity with smart suggestions and templates, tailored to your needs. Experience seamless integration and a user-friendly interface for all your email writing tasks.',
-    link: 'https://ai-emailwriter.vercel.app',
-    github: 'https://github.com/sonusahuz/ai-email-writer',
+      'I developed a CRUD operations website using React.js, TypeScript, JavaScript, and Tailwind CSS. This project features a robust, maintainable codebase and a visually appealing, responsive design. It efficiently handles Create, Read, Update, and Delete functionalities, showcasing strong proficiency in modern web development and effective data management practices.',
+    link: 'https://crud-operations-using-react-js.vercel.app/',
+    github: 'https://github.com/sonusahuz/crud-operations-using-react.js',
   },
   {
     id: '3',

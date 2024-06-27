@@ -7,7 +7,7 @@ export default function Header({ children }: { children: React.ReactNode }) {
       <header
         className={`flex bg-white dark:bg-slate-950 w-full items-center sticky top-0 justify-between z-20 h-[60px]`}
       >
-        <div>
+        <div className="flex items-center justify-between gap-2">
           <ul className="flex items-center justify-center lg:gap-8 gap-6">
             {navbarLink.map((nav) => (
               <li key={nav?.id} title={nav?.name}>
@@ -16,7 +16,7 @@ export default function Header({ children }: { children: React.ReactNode }) {
             ))}
           </ul>
         </div>
-        <div className="flex items-center justify-between gap-2">
+        <div>
           <ModeToggle />
         </div>
       </header>

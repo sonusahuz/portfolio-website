@@ -83,7 +83,7 @@ function Home() {
                       href="https://sonusahu.hashnode.dev"
                       className="text-blue-700 font-medium"
                     >
-                      @sonusahu
+                      @sonusahudev
                     </a>
                   </li>
                   <li>
@@ -99,11 +99,11 @@ function Home() {
                   <li>
                     Twitter -{' '}
                     <a
-                      href="https://twitter.com/sonusahuz"
+                      href="https://twitter.com/sonusahudev"
                       target="_blank"
                       className="text-blue-700 font-medium"
                     >
-                      @sonusahuz
+                      @sonusahudev
                     </a>
                   </li>
                   <li>
