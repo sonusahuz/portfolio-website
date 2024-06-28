@@ -25,21 +25,7 @@ function Home() {
                 frontend development, and I have extensive experience with
                 databases such as PostgreSQL and MongoDB.
               </p>
-
-              <p className="mt-4">
-                In addition to my frontend skills, I am well-versed in backend
-                technologies, including Python and Django. This full-stack
-                expertise allows me to understand and address the complete
-                lifecycle of a web application, from concept and design to
-                development and deployment.
-              </p>
-              <p className="mt-4">
-                I am a firm believer in continuous learning and professional
-                growth. I actively seek out new technologies and methodologies
-                to enhance my skill set and stay updated with industry trends.
-                My goal is to leverage these skills to deliver innovative
-                solutions that meet and exceed client expectations.
-              </p>
+              
               <p className="mt-4">
                 I am confident in my ability to be a valuable asset to any team.
                 If you have a project or need a web developer, I would be

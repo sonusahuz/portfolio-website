@@ -124,18 +124,6 @@ export const skills = [
   },
   {
     id: '7',
-    name: 'Python',
-  },
-  {
-    id: '8',
-    name: 'Django',
-  },
-  {
-    id: '9',
-    name: 'PostgreSQL',
-  },
-  {
-    id: '10',
     name: 'Git',
   },
 ];
