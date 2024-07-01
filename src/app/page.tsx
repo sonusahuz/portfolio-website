@@ -10,10 +10,10 @@ function Home() {
           <div className="text-left mb-10 ">
             <div className="gap-4 flex justify-between items-center mt-2">
               <div>
-                <Image
+                <img
                   alt="logo"
                   className="border rounded-full lg:w-24 w-24 lg:h-24 h-24 aspect-square"
-                  src="/logo.png"
+                  src="./logo.png"
                   width={120}
                   height={120}
                 />
