@@ -43,7 +43,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="sm:px-4 md:px-40 lg:px-60 xl:px-80 px-3 mb-16 lg:mt-12 mt-5">
+          <main className="sm:px-4 md:px-40 lg:px-60 xl:px-96 px-3 mb-16 mt-5">
             {children}
           </main>
           <Navigation />

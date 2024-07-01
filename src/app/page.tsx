@@ -77,7 +77,7 @@ function Home() {
             </div>
             <div>
               <div className="mt-6 mb-1">
-                <h1 className="text-xl font-bold">Connect with me:</h1>
+                <h1 className="text-xl font-bold">Connect with me</h1>
               </div>
               <div className="flex items-end justify-between">
                 <div className="flex gap-4 flex-wrap text-[16px]">
