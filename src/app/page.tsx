@@ -18,8 +18,8 @@ function Home() {
                   height={120}
                 />
               </div>
-              <div className="flex-col flex flex-1 space-y-1">
-                <h1 className="lg:text-4xl text-[22px] font-extrabold">
+              <div className="flex-col flex flex-1 space-y-0.5">
+                <h1 className="lg:text-4xl text-[20px] font-extrabold">
                   Hi, I&apos;m Sonu Sahu👋
                 </h1>
                 <p className="mt-2 text-sm lg:text-[16px]">
