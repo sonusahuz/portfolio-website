@@ -28,7 +28,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="leading-7 text-[16px] text-[#96969e]">
+            <div className="leading-7 text-[16px] textg">
               <div className="mt-6">
                 <h1 className="text-xl font-bold text-black mb-1 dark:text-white">
                   About Me

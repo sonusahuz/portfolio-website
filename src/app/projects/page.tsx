@@ -13,9 +13,7 @@ const Projects = () => {
     <div>
       <div className="text-center">
         <h1 className="text-3xl">Projects </h1>
-        <p className="text-[#96969e] text-sm py-2">
-          Here are some of my projects
-        </p>
+        <p className="text-sm py-2">Here are some of my projects</p>
       </div>
       {project.map((item) => (
         <div key={item.id}>
@@ -37,7 +35,7 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <p className="text-[#96969e] text-sm py-2">{item.description}</p>
+              <p className="text-sm py-2">{item.description}</p>
             </div>
           </div>
         </div>
