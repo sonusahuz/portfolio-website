@@ -12,7 +12,7 @@ function Home() {
               <div>
                 <img
                   alt="logo"
-                  className="border rounded-full lg:w-24 w-24 lg:h-24 h-24 aspect-square"
+                  className="border-2 rounded-full lg:w-24 w-24 lg:h-24 h-24 aspect-square"
                   src="./logo.png"
                   width={120}
                   height={120}
@@ -35,9 +35,7 @@ function Home() {
               </div>
               <p>
                 Hello, I’m Sonu Sahu, a passionate and dedicated{' '}
-                <span className=" font-semibold text-black">
-                  Full-Stack Developer{' '}
-                </span>{' '}
+                <span className=" font-semibold">Full-Stack Developer </span>{' '}
                 with over two years of experience in designing and developing
                 websites and applications from scratch. My expertise encompasses
                 both frontend and backend development, allowing me to create
