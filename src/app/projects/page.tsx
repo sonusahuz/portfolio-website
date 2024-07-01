@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 const Projects = () => {
   return (
     <div>
-      <div className='text-center'>
-        <h1 className='text-3xl'>Projects </h1>
-        <p className="text-[#5a5a5a] text-sm py-2">
+      <div className="text-center">
+        <h1 className="text-3xl">Projects </h1>
+        <p className="text-[#96969e] text-sm py-2">
           Here are some of my projects
         </p>
       </div>
@@ -37,7 +37,7 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <p className="text-[#5a5a5a] text-sm py-2">{item.description}</p>
+              <p className="text-[#96969e] text-sm py-2">{item.description}</p>
             </div>
           </div>
         </div>
