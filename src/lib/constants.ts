@@ -127,3 +127,36 @@ export const skills = [
     name: 'Git',
   },
 ];
+
+export const socialMediaLink = [
+  {
+    id: '1',
+    href: 'https://github.com/sonusahuz',
+    title: 'Github',
+    name: '@sonusahuz',
+  },
+  {
+    id: '2',
+    href: 'https://linkedin.com/in/sonusahu',
+    title: 'Linkedin',
+    name: '@sonusahu',
+  },
+  {
+    id: '3',
+    href: 'https://sonusahu.hashnode.dev',
+    title: 'Hashnode',
+    name: '@sonusahudev',
+  },
+  {
+    id: '4',
+    href: 'https://twitter.com/sonusahudev',
+    title: 'Twitter',
+    name: '@sonusahudev',
+  },
+  {
+    id: '5',
+    href: 'https://instagram.com/sonusahudev',
+    title: 'Instagram',
+    name: '@sonusahudev',
+  },
+];
