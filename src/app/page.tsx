@@ -1,10 +1,9 @@
 import { skills, socialMediaLink } from '@/lib/constants';
 import React from 'react';
-import Image from 'next/image';
 
 function Home() {
   return (
-    <div id="about" className="w-full h-auto lg:mt-4 ">
+    <div id="about" className="w-full h-auto ">
       <div className="flex items-center justify-center">
         <div className="flex items-center justify-center">
           <div className="text-left mb-10 ">
@@ -29,9 +28,11 @@ function Home() {
               </div>
             </div>
 
-            <div className="leading-7 text-[16px] text-[#838383]">
+            <div className="leading-7 text-[16px] text-[#5a5a5a]">
               <div className="mt-6">
-                <h1 className="text-xl font-bold text-black mb-1">About Me</h1>
+                <h1 className="text-xl font-bold text-black mb-1 dark:text-white">
+                  About Me
+                </h1>
               </div>
               <p>
                 Hello, I’m Sonu Sahu, a passionate and dedicated{' '}

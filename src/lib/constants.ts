@@ -79,24 +79,6 @@ export const blogList = [
   },
 ];
 
-export const navbarLink = [
-  {
-    id: '1',
-    name: 'Home',
-    url: '/',
-  },
-  {
-    id: '2',
-    name: 'Projects',
-    url: '/projects',
-  },
-  {
-    id: '3',
-    name: 'Blogs',
-    url: '/blogs',
-  },
-];
-
 export const skills = [
   {
     id: '1',

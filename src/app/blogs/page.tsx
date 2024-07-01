@@ -9,6 +9,10 @@ export const metadata: Metadata = {
 const Blogs = () => {
   return (
     <div>
+      <div className="text-center">
+        <h1 className="text-3xl">Blogs </h1>
+        <p className="text-[#5a5a5a] text-sm py-2">Here are some of my blogs</p>
+      </div>
       {blogList.map((item) => (
         <Link href={item.link} key={item.id}>
           <div className="my-6 flex items-center justify-between flex-wrap border p-4 rounded-lg">
@@ -16,12 +20,12 @@ const Blogs = () => {
               {item.title}
             </h1>
             <div>
-              <p className="text-[#96969e] text-sm py-2">{item.description}</p>
+              <p className="text-[#5a5a5a] text-sm py-2">{item.description}</p>
             </div>
             <div>
               <div className="flex items-center justify-start my-2 gap-5">
-                <span className="text-[#96969e] text-xs">{item.date}</span>
-                <span className="text-[#96969e] text-xs">{item.time}</span>
+                <span className="text-[#5a5a5a] text-xs">{item.date}</span>
+                <span className="text-[#5a5a5a] text-xs">{item.time}</span>
               </div>
             </div>
           </div>

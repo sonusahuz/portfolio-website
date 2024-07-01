@@ -2,8 +2,7 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/ui/theme-provider';
-import Footer from '@/components/ui/footer';
-import Header from '@/components/ui/header';
+import Navigation from '@/components/ui/navigation';
 
 const inter = Poppins({
   subsets: ['latin'],
@@ -44,10 +43,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="sm:px-4 md:px-40 lg:px-60 xl:px-80 px-3">
-            <Header>{children}</Header>
-            <Footer />
+          <main className="sm:px-4 md:px-40 lg:px-60 xl:px-80 px-3 mb-16 lg:mt-12 mt-5">
+            {children}
           </main>
+          <Navigation />
         </ThemeProvider>
       </body>
     </html>
