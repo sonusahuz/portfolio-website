@@ -21,7 +21,7 @@ export const project = [
     description:
       'Introducing Musicolet, a dynamic music website powered by Next.js 14, TypeScript, and TailwindCSS. Leveraging the JioSaavn API via Context API, Musicolet offers seamless access to a vast library of music tracks and albums. trending, albums, top charts, and enjoy personalized playlists and recommendations, all with a modern and responsive user interface.',
     link: 'https://melodify-music.vercel.app',
-    github: 'https://github.com/sonusahuz/melodify',
+    github: 'https://github.com/sonusahuz/melodify-music',
   },
 ];
 
