@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 const Blogs = () => {
   return (
-    <div>
+    <div className='mb-24'>
       <div className="text-center">
         <h1 className="text-3xl">Blogs </h1>
         <p className="text-sm py-2">Here are some of my blogs</p>

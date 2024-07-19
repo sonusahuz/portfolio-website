@@ -127,18 +127,18 @@ export const socialMediaLink = [
     id: '3',
     href: 'https://sonusahu.hashnode.dev',
     title: 'Hashnode',
-    name: '@sonusahudev',
+    name: '@sonusahuz',
   },
   {
     id: '4',
-    href: 'https://twitter.com/sonusahudev',
+    href: 'https://twitter.com/sonusahuz',
     title: 'Twitter',
-    name: '@sonusahudev',
+    name: '@sonusahuz',
   },
   {
     id: '5',
-    href: 'https://instagram.com/sonusahudev',
+    href: 'https://instagram.com/sonusahuz',
     title: 'Instagram',
-    name: '@sonusahudev',
+    name: '@sonusahuz',
   },
 ];
