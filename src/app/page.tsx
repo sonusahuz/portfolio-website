@@ -45,11 +45,12 @@ function Home() {
               </p>
 
               <p className="mt-4">
-                My focus is on building responsive user interfaces for web-based
-                applications that deliver a seamless and enjoyable user
-                experience. I am proficient in using React.js and Next.js for
-                frontend development, and I have extensive experience with
-                databases such as PostgreSQL and MongoDB.
+                I specialize in creating responsive user interfaces for web
+                applications, ensuring a seamless and enjoyable user experience.
+                I am proficient in React.js and Next.js for frontend
+                development, and I have extensive experience with databases such
+                as PostgreSQL. Additionally, I have great expertise in creating
+                full-stack applications using Python, Django, and PostgreSQL
               </p>
 
               <p className="mt-4">

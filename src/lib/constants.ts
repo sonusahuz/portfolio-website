@@ -106,6 +106,18 @@ export const skills = [
   },
   {
     id: '7',
+    name: 'Python',
+  },
+  {
+    id: '8',
+    name: 'Django',
+  },
+  {
+    id: '9',
+    name: 'PostgreSQL',
+  },
+  {
+    id: '10',
     name: 'Git',
   },
 ];
@@ -121,7 +133,7 @@ export const socialMediaLink = [
     id: '2',
     href: 'https://linkedin.com/in/sonusahu',
     title: 'Linkedin',
-    name: '@sonusahu',
+    name: '@sonusahuz',
   },
   {
     id: '3',

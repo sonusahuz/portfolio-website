@@ -17,11 +17,19 @@ export function ModeToggle() {
   };
 
   return (
-    <span onClick={toggleTheme} className=' cursor-pointer'>
+    <span onClick={toggleTheme} className=" cursor-pointer">
       {theme === 'light' ? (
-        <Moon size={24} className=" rotate-0 scale-100 transition-all" />
+        <Sun
+          strokeWidth={1.25}
+          size={24}
+          className=" rotate-0 scale-100 transition-all"
+        />
       ) : (
-        <Sun size={24} className=" rotate-0 scale-100 transition-all" />
+        <Moon
+          strokeWidth={1.25}
+          size={24}
+          className=" rotate-0 scale-100 transition-all"
+        />
       )}
       <span className="sr-only">Toggle theme</span>
     </span>
