@@ -36,7 +36,7 @@ function Home() {
               </div>
               <p>
                 Hello, I’m Sonu Sahu, a passionate and dedicated{' '}
-                <span className=" font-semibold">Full-Stack Developer </span>{' '}
+                <span className=" font-semibold">Full-Stack Web Developer </span>{' '}
                 with over two years of experience in designing and developing
                 websites and applications from scratch. My expertise encompasses
                 both frontend and backend development, allowing me to create
