@@ -3,7 +3,7 @@
 import React from 'react';
 import { Instagram, Twitter, Linkedin, Github, Sun, Moon } from 'lucide-react';
 import Link from 'next/link';
-import { Button } from './button';
+import { Button } from './ui/button';
 import { useTheme } from 'next-themes';
 
 const socialMediaLinks = [
@@ -50,7 +50,10 @@ const Footer = () => {
               className="text-muted-foreground transition hover:text-gray-500 active:text-muted-foreground"
             >
               <Button variant="ghost" size="icon">
-                <Icon className="h-5 w-5 text-muted-foreground" aria-label={title} />
+                <Icon
+                  className="h-5 w-5 text-muted-foreground"
+                  aria-label={title}
+                />
               </Button>
             </Link>
           ))}

@@ -1,4 +1,4 @@
-import { project } from '@/lib/constants';
+import { project } from '@/lib/data';
 import { Metadata } from 'next';
 import React from 'react';
 import {
@@ -8,10 +8,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from './card';
-import { Badge } from './badge';
-import { Button } from './button';
+} from './ui/card';
 import { ExternalLink, Github } from 'lucide-react';
+import { Button } from './ui/button';
+import { Badge } from './ui/badge';
 
 export const metadata: Metadata = {
   title: 'Sonu Sahu - Projects',

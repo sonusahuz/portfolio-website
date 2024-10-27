@@ -1,4 +1,4 @@
-import { blogList } from '@/lib/constants';
+import { blogList } from '@/lib/data';
 import { Metadata } from 'next';
 import React from 'react';
 import {
@@ -8,8 +8,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from './card';
-import { Button } from './button';
+} from './ui/card';
+import { Button } from './ui/button';
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 

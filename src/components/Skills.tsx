@@ -8,6 +8,8 @@ export const metadata = {
 
 export default function SkillsPage() {
   const skills = [
+    { id: '19', skill: 'HTML' },
+    { id: '8', skill: 'CSS' },
     { id: '1', skill: 'JavaScript' },
     { id: '2', skill: 'TypeScript' },
     { id: '3', skill: 'Python' },
@@ -15,10 +17,8 @@ export default function SkillsPage() {
     { id: '5', skill: 'Next.js' },
     { id: '6', skill: 'Redux' },
     { id: '7', skill: 'Zustand' },
-    { id: '8', skill: 'CSS' },
+    { id: '20', skill: 'Django' },
     { id: '9', skill: 'TailwindCSS' },
-    { id: '10', skill: 'Bootstrap' },
-    { id: '11', skill: 'Material UI' },
     { id: '12', skill: 'Shadcn UI' },
     { id: '13', skill: 'Next UI' },
     { id: '14', skill: 'MongoDB' },

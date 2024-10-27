@@ -18,23 +18,23 @@ function About() {
             <div className="flex items-center justify-center">
               <article className="mb-10 text-left leading-7 text-[16px] text-muted-foreground">
                 <p>
-                  Hello! My name is Sonu Sahu, a{' '}
-                  <span className="font-semibold">software developer</span> with
-                  a great passion for creating and designing websites and
+                  Hello! My name is Sonu Sahu, and I am a{' '}
+                  <span className="font-semibold">software developer </span>
+                  with a passion for creating and designing websites and
                   applications from scratch. My journey in software development
-                  began with a Bachelor&apos;s degree in Computer Science, which
+                  began with a Bachelor’s degree in Computer Science, which
                   provided me with a solid foundation in programming and
                   problem-solving skills.
                 </p>
                 <p className="mt-4">
                   Throughout my career, I have worked with various technologies
-                  and programming languages, including JavaScript, Python, and
-                  Java. I have also worked with frontend frameworks like
-                  React.js, Next.js, and Vue.js, and have extensive experience
-                  with databases such as PostgreSQL. I have a strong background
-                  in web application development, and I am particularly
-                  passionate about creating user-friendly, efficient, and
-                  scalable solutions.
+                  and programming languages, including JavaScript, TypeScript,
+                  and Python. I have also gained experience with frontend
+                  frameworks like React.js and Next.js, along with extensive
+                  knowledge of databases such as PostgreSQL and MongoDB. My
+                  background in web application development has fostered a
+                  passion for creating user-friendly, efficient, and scalable
+                  solutions.
                 </p>
                 <p className="mt-4">
                   I am always eager to learn and grow. Apart from my project
