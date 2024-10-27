@@ -8,8 +8,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from './ui/card';
-import { Button } from './ui/button';
+} from './card';
+import { Button } from './button';
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 

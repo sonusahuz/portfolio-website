@@ -8,10 +8,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from './ui/card';
+} from './card';
 import { ExternalLink, Github } from 'lucide-react';
-import { Button } from './ui/button';
-import { Badge } from './ui/badge';
+import { Button } from './button';
+import { Badge } from './badge';
 
 export const metadata: Metadata = {
   title: 'Sonu Sahu - Projects',

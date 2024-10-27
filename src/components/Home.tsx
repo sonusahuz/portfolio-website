@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/button';
 import { handleNavigation } from '@/lib/utils';
 import Header from './Header';
 

@@ -3,7 +3,7 @@
 import React from 'react';
 import { Instagram, Twitter, Linkedin, Github, Sun, Moon } from 'lucide-react';
 import Link from 'next/link';
-import { Button } from './ui/button';
+import { Button } from './button';
 import { useTheme } from 'next-themes';
 
 const socialMediaLinks = [

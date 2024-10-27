@@ -35,4 +35,4 @@ const Drawer: React.FC<DrawerProps> = ({
   );
 };
 
-export default Drawer;
+export { Drawer };
