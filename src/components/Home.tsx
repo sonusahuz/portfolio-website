@@ -12,12 +12,9 @@ export default function HomePage() {
       className="lg:h-screen w-full overflow-hidden relative flex flex-col bg-background text-foreground"
     >
       <Header />
-      <main className="flex-grow flex items-center justify-center py-20 lg:text-center mb-24 lg:mb-0">
-        <div className="max-w-5xl flex flex-col gap-3">
-          <h1 className="text-5xl sm:text-5xl md:text-6xl font-medium">
-            Sonu Sahu.
-          </h1>
-          <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-medium text-muted-foreground">
+      <main className="flex-grow flex items-center justify-center py-24 text-center mb-24 lg:mb-0">
+        <div className="max-w-5xl flex flex-col gap-4">
+          <h2 className="text-4xl lg:text-6xl font-medium text-muted-foreground">
             Building Engaging Web Applications that Retain Users.
           </h2>
           <p className="text-lg max-w-[900px] mx-auto sm:text-xl font-light text-muted-foreground leading-relaxed lg:mt-2">
@@ -25,7 +22,7 @@ export default function HomePage() {
             user-friendly experiences. Passionate about building excellent
             software that improves lives.
           </p>
-          <div className="flex gap-4 text-center mt-2 lg:mx-auto">
+          <div className="flex gap-4 text-center mt-2 mx-auto">
             <Button
               size="lg"
               aria-label="View Projects"

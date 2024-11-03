@@ -33,13 +33,7 @@ export const project = [
   {
     id: '3',
     title: 'Uplift UI',
-    technologies: [
-      'React',
-      'TailwindCSS',
-      'TypeScript',
-      'JavaScript',
-      'Rollup',
-    ],
+    technologies: ['React', 'TailwindCSS', 'TypeScript', 'JavaScript'],
     description:
       'Uplift-UI is a versatile React component library that simplifies the development of modern web applications. It provides pre-built UI components that are customizable and easy to use. The library is built using React,TypeScript, and TailwindCSS, making it highly flexible for building responsive and visually appealing interfaces.',
     link: 'https://upliftui.vercel.app',

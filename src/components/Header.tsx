@@ -16,8 +16,9 @@ const Header = () => {
   const items = [
     { id: '1', title: 'Home', href: 'home' },
     { id: '2', title: 'About', href: 'about' },
-    { id: '3', title: 'Projects', href: 'projects' },
-    { id: '4', title: 'Blogs', href: 'blogs' },
+    { id: '3', title: 'Skills', href: 'skills' },
+    { id: '4', title: 'Projects', href: 'projects' },
+    { id: '5', title: 'Blogs', href: 'blogs' },
   ];
 
   return (
@@ -28,7 +29,7 @@ const Header = () => {
       </Link>
 
       <nav className="hidden md:flex items-center gap-4">
-        {['Home', 'About', 'Projects', 'Blogs'].map((item) => (
+        {['Home', 'About', 'Skills', 'Projects', 'Blogs'].map((item) => (
           <button
             key={item}
             onClick={() => handleNavigation(item.toLowerCase())}
