@@ -22,7 +22,7 @@ function About() {
                   <span className="font-semibold">software developer </span>
                   with a passion for creating and designing websites and
                   applications from scratch. My journey in software development
-                  began with a Bachelor’s degree in Computer Science, which
+                  began with a bachelor’s degree in computer science, which
                   provided me with a solid foundation in programming and
                   problem-solving skills.
                 </p>
