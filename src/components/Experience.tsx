@@ -20,7 +20,7 @@ const experiences: ExperienceType[] = [
     company: 'Idbook Hotels',
     period: 'Jan 2025 - Present',
     description: [
-      'Developed a scalable and user-friendly web application using React.js and Next.js, ensuring seamless performance and maintainability.',
+      'Developed a scalable and user-friendly interfaces using React.js and Next.js, ensuring seamless performance and maintainability.',
       'Implemented responsive and modern UI designs with React and Tailwind CSS, enhancing user experience across devices.',
       'Built and maintained hotelier and admin dashboards, enabling efficient management of properties and bookings',
       'Integrated features for adding and managing multiple hotels, rooms, properties, and amenities, streamlining operations.',
