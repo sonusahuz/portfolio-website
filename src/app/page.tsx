@@ -1,5 +1,6 @@
 import About from '@/components/About';
 import Blogs from '@/components/Blog';
+import GetInTouch from '@/components/Contact';
 import Experience from '@/components/Experience';
 import Footer from '@/components/Footer';
 import HeroSection from '@/components/Home';
@@ -16,6 +17,7 @@ const Home = () => {
       <Projects />
       <Experience />
       <Blogs />
+      <GetInTouch />
       <Footer />
     </>
   );

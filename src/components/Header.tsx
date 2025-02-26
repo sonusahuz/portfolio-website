@@ -20,6 +20,7 @@ const Header = () => {
     { id: '3', title: 'Skills', href: 'skills' },
     { id: '4', title: 'Projects', href: 'projects' },
     { id: '5', title: 'Blogs', href: 'blogs' },
+    { id: '5', title: 'Contact', href: 'contact' },
   ];
 
   return (
@@ -30,7 +31,7 @@ const Header = () => {
       </Link>
 
       <nav className="hidden md:flex items-center gap-4">
-        {['Home', 'About', 'Experience', 'Skills', 'Projects', 'Blogs'].map(
+        {['Home', 'About', 'Experience', 'Skills', 'Projects', 'Blogs', "Contact"].map(
           (item) => (
             <button
               key={item}

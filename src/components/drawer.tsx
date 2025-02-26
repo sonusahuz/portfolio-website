@@ -15,7 +15,7 @@ const Drawer: React.FC<DrawerProps> = ({
 }) => {
   return (
     <div
-      className={`drawer dark:bg-black bg-white dark:text-white ${
+      className={`drawer z-50 dark:bg-black bg-white dark:text-white ${
         isOpen ? 'open' : ''
       }`}
       style={{ width: width }}
