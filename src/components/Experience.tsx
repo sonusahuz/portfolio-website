@@ -18,7 +18,7 @@ const experiences: ExperienceType[] = [
     id: 1,
     role: 'Frontend Engineer',
     company: 'Idbook Hotels',
-    period: 'Jan 2025 - Present',
+    period: 'Jan 2025 - May 2025',
     description: [
       'Developed a scalable and user-friendly interfaces using React.js and Next.js, ensuring seamless performance and maintainability.',
       'Implemented responsive and modern UI designs with React and Tailwind CSS, enhancing user experience across devices.',
