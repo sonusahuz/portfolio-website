@@ -15,13 +15,29 @@ export const project = [
     github: 'https://github.com/sonusahuz/jsonify-react',
   },
   {
-    id: '3',
+    id: '2',
     title: 'Uplift UI',
     technologies: ['React', 'TailwindCSS', 'TypeScript', 'JavaScript'],
     description:
       'Uplift-UI is a versatile React component library that simplifies the development of modern web applications. It provides pre-built UI components that are customizable and easy to use. The library is built using React,TypeScript, and TailwindCSS, making it highly flexible for building responsive and visually appealing interfaces.',
     link: 'https://upliftui.vercel.app',
     github: 'https://github.com/sonusahuz/uplift-ui',
+  },
+  {
+    id: '3',
+    title: 'Melodify Music Streaming App',
+    technologies: [
+      'React.js',
+      'Next.js',
+      'TailwindCSS',
+      'TypeScript',
+      'JavaScript',
+      'Jio Saavn API',
+    ],
+    description:
+      'Melodify is a feature-rich music streaming application built with React.js, Next.js 14, TailwindCSS, and TypeScript. It offers a seamless user experience with functionalities like searching for songs, creating playlists, and playing music. The app integrates with the Jio Saavn API to provide a vast library of songs and albums. With its modern design and responsive layout, Melodify is perfect for music enthusiasts looking for an intuitive platform to enjoy their favorite tunes.',
+    link: 'https://melodify-music.vercel.app',
+    github: 'https://github.com/sonusahuz/melodify-music',
   },
 ];
 
@@ -123,7 +139,7 @@ export const experiences: Experience[] = [
       'TailwindCSS',
       'TypeScript',
       'JavaScript',
-      "Redux",
+      'Redux',
     ],
   },
 ];
