@@ -15,17 +15,14 @@ export default function SkillsPage() {
     { id: '3', skill: 'Python' },
     { id: '4', skill: 'React.js' },
     { id: '5', skill: 'Next.js' },
+    { id: '5', skill: 'Nest.js' },
     { id: '6', skill: 'Redux' },
     { id: '7', skill: 'Zustand' },
-    { id: '20', skill: 'Django' },
     { id: '9', skill: 'TailwindCSS' },
     { id: '12', skill: 'Shadcn UI' },
-    { id: '13', skill: 'Next UI' },
     { id: '14', skill: 'MongoDB' },
     { id: '15', skill: 'PostgreSQL' },
     { id: '16', skill: 'Git' },
-    { id: '17', skill: 'Github' },
-    { id: '18', skill: 'Linux' },
   ];
 
   return (
