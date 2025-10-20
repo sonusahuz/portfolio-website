@@ -37,6 +37,29 @@ const experiences: ExperienceType[] = [
     ],
     link: 'https://www.idbookhotels.com/',
   },
+
+  {
+    id: 2,
+    company: 'Khatushyam Technologies',
+    role: 'Frontend Developer',
+    period: 'July 2024 - Dec 2024',
+    description: [
+      'Led a team of 5 developers in building a complex SaaS platform',
+      'Implemented responsive designs using React and Tailwind CSS',
+      'Improved application performance by 40% through code optimization',
+      'Mentored junior developers and conducted code reviews',
+    ],
+    technologies: [
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'JavaScript',
+      'Node.js',
+      'Zustand',
+      'Redux',
+    ],
+    link: 'https://khatushyamtechnologies.in/',
+  },
 ];
 
 // Define prop type for ExperienceCard
