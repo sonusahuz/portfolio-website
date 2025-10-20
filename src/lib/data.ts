@@ -23,22 +23,6 @@ export const project = [
     link: 'https://upliftui.vercel.app',
     github: 'https://github.com/sonusahuz/uplift-ui',
   },
-  {
-    id: '3',
-    title: 'Melodify Music Streaming App',
-    technologies: [
-      'React.js',
-      'Next.js',
-      'TailwindCSS',
-      'TypeScript',
-      'JavaScript',
-      'Jio Saavn API',
-    ],
-    description:
-      'Melodify is a feature-rich music streaming application built with React.js, Next.js 14, TailwindCSS, and TypeScript. It offers a seamless user experience with functionalities like searching for songs, creating playlists, and playing music. The app integrates with the Jio Saavn API to provide a vast library of songs and albums. With its modern design and responsive layout, Melodify is perfect for music enthusiasts looking for an intuitive platform to enjoy their favorite tunes.',
-    link: 'https://melodify-music.vercel.app',
-    github: 'https://github.com/sonusahuz/melodify-music',
-  },
 ];
 
 export const blogList = [
@@ -102,10 +86,30 @@ interface Experience {
 
 export const experiences: Experience[] = [
   {
+    company: 'Idbook Hotels',
+    type: 'Internship',
+    position: 'Frontend Developer',
+    duration: 'Jan 2025 - June 2025',
+    responsibilities: [
+      'Developed and maintained multiple client websites using React and Next.js',
+      'Collaborated with UX designers to implement pixel-perfect designs',
+      'Integrated RESTful APIs and GraphQL endpoints',
+      'Participated in agile development processes and sprint planning',
+    ],
+    technologies: [
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'TypeScript',
+      'JavaScript',
+      'Redux',
+    ],
+  },
+  {
     company: 'Khatushyam Technologies',
     position: 'Frontend Developer',
     type: 'Internship',
-    duration: 'Nov 2024 - Present',
+    duration: 'July 2024 - Dec 2024',
     responsibilities: [
       'Led a team of 5 developers in building a complex SaaS platform',
       'Implemented responsive designs using React and Tailwind CSS',
@@ -119,26 +123,6 @@ export const experiences: Experience[] = [
       'JavaScript',
       'Node.js',
       'Zustand',
-      'Redux',
-    ],
-  },
-  {
-    company: 'Idbook Hotels',
-    type: 'Internship',
-    position: 'Frontend Developer',
-    duration: 'Jan 2025 - Present',
-    responsibilities: [
-      'Developed and maintained multiple client websites using React and Next.js',
-      'Collaborated with UX designers to implement pixel-perfect designs',
-      'Integrated RESTful APIs and GraphQL endpoints',
-      'Participated in agile development processes and sprint planning',
-    ],
-    technologies: [
-      'React',
-      'Next.js',
-      'TailwindCSS',
-      'TypeScript',
-      'JavaScript',
       'Redux',
     ],
   },
