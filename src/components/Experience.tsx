@@ -20,10 +20,12 @@ const experiences: ExperienceType[] = [
     company: 'Idbook Hotels',
     period: 'Jan 2025 - May 2025',
     description: [
-      'Developed a scalable and user-friendly interfaces using React.js and Next.js, ensuring seamless performance and maintainability.',
-      'Implemented responsive and modern UI designs with React and Tailwind CSS, enhancing user experience across devices.',
-      'Built and maintained hotelier and admin dashboards, enabling efficient management of properties and bookings',
-      'Integrated features for adding and managing multiple hotels, rooms, properties, and amenities, streamlining operations.',
+      'Collaborated with designers to build clean, responsive, and pixel-perfect UI designs',
+      'Integrated RESTful APIs to manage and display dynamic hotel data efficiently',
+      'Developed responsive and modern UI components using React and Tailwind CSS, improving user experience across devices',
+      'Built and maintained admin and hotelier dashboards for efficient property and booking management',
+      'Implemented features for adding and managing hotels, rooms, and amenities, streamlining daily operations',
+      'Worked closely with the development team during sprints to ensure smooth feature delivery and testing',
     ],
     technologies: [
       'React',
@@ -41,13 +43,15 @@ const experiences: ExperienceType[] = [
   {
     id: 2,
     company: 'Khatushyam Technologies',
-    role: 'Frontend Developer',
+    role: 'Frontend Developer Intern',
     period: 'July 2024 - Dec 2024',
     description: [
-      'Led a team of 5 developers in building a complex SaaS platform',
-      'Implemented responsive designs using React and Tailwind CSS',
-      'Improved application performance by 40% through code optimization',
-      'Mentored junior developers and conducted code reviews',
+      'Built and styled interactive web pages using React, Next.js, and Tailwind CSS',
+      'Improved UI consistency and fixed layout issues to enhance user experience',
+      'Integrated REST APIs to fetch and display real-time data on web pages',
+      'Learned from senior developers how to write optimized and efficient code to boost app performance',
+      'Worked closely with the team to create responsive and accessible web designs',
+      'Participated in code reviews and followed best practices in frontend development',
     ],
     technologies: [
       'React',
@@ -58,7 +62,7 @@ const experiences: ExperienceType[] = [
       'Zustand',
       'Redux',
     ],
-    link: 'https://khatushyamtechnologies.in/',
+    link: 'https://khatushyamtechnologies.com/',
   },
 ];
 

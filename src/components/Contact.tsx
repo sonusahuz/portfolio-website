@@ -11,7 +11,7 @@ export default function GetInTouch() {
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
           Get In Touch
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+        <p className="text-[16px] text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           Although I&apos;m not currently looking for any new opportunities, my
           inbox is always open. Whether you have a question or just want to say
           hi, I&apos;ll try my best to get back to you!

@@ -91,10 +91,11 @@ export const experiences: Experience[] = [
     position: 'Frontend Developer',
     duration: 'Jan 2025 - June 2025',
     responsibilities: [
-      'Developed and maintained multiple client websites using React and Next.js',
-      'Collaborated with UX designers to implement pixel-perfect designs',
-      'Integrated RESTful APIs and GraphQL endpoints',
-      'Participated in agile development processes and sprint planning',
+      'Worked with designers to implement clean, responsive, and pixel-perfect UI designs',
+      'Integrated RESTful APIs to display and manage dynamic data',
+      'Built and styled interactive web pages using React, Next.js, Typescript, and Tailwind CSS',
+      'Worked on designing and improving admin and hotelier dashboards for better usability',
+      'Collaborated with team members during daily stand-ups and sprint planning meetings',
     ],
     technologies: [
       'React',
@@ -111,10 +112,11 @@ export const experiences: Experience[] = [
     type: 'Internship',
     duration: 'July 2024 - Dec 2024',
     responsibilities: [
-      'Led a team of 5 developers in building a complex SaaS platform',
-      'Implemented responsive designs using React and Tailwind CSS',
-      'Improved application performance by 40% through code optimization',
-      'Mentored junior developers and conducted code reviews',
+      'Built and styled interactive web pages using React, Next.js, and Tailwind CSS',
+      'Improved UI consistency and fixed layout issues to enhance user experience',
+      'Integrated REST APIs to fetch and display real-time data on web pages',
+      'Worked closely with the development team to create responsive and accessible designs',
+      'Participated in code reviews and applied best practices in frontend development',
     ],
     technologies: [
       'React',
